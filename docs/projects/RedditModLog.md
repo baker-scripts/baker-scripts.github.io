@@ -1,6 +1,6 @@
 # Reddit Modlog Wiki Publisher
 
-[![GitHub](https://img.shields.io/badge/GitHub-baker--scripts%2FRedditModLog-blue?logo=github)](https://github.com/baker-scripts/RedditModLog)
+[![Docker Build](https://github.com/baker-scripts/RedditModLog/actions/workflows/docker-build.yml/badge.svg)](https://github.com/baker-scripts/RedditModLog/actions/workflows/docker-build.yml) [![Pre-commit](https://github.com/baker-scripts/RedditModLog/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/baker-scripts/RedditModLog/actions/workflows/pre-commit.yml)
 
 Automatically publishes Reddit moderation logs to a subreddit wiki page with modmail inquiry links.
 

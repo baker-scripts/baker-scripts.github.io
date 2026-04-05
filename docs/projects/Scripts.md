@@ -1,6 +1,6 @@
 # Scripts
 
-[![GitHub](https://img.shields.io/badge/GitHub-baker--scripts%2FScripts-blue?logo=github)](https://github.com/baker-scripts/Scripts)
+[![ShellCheck](https://github.com/baker-scripts/Scripts/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/baker-scripts/Scripts/actions/workflows/shellcheck.yml)
 
 Utility scripts for selfhosted infrastructure management.
 

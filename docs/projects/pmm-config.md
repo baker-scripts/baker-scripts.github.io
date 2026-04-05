@@ -1,7 +1,5 @@
 # pmm-config
 
-[![GitHub](https://img.shields.io/badge/GitHub-baker--scripts%2Fpmm-config-blue?logo=github)](https://github.com/baker-scripts/pmm-config)
-
 Kometa (formerly Plex Meta Manager) configuration files for automated Plex library management.
 
 ## Structure

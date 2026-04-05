@@ -1,7 +1,5 @@
 # qui_workflows
 
-[![GitHub](https://img.shields.io/badge/GitHub-baker--scripts%2Fqui_workflows-blue?logo=github)](https://github.com/baker-scripts/qui_workflows)
-
 Automation workflows for [qui](https://github.com/TRaSH-Guides/qui) — a qBittorrent automation manager. These workflows manage the complete torrent lifecycle: tagging, maintenance, share limits, and cleanup.
 
 21 automations organized by function, designed for a hardlink-aware setup with cross-seed support.

@@ -1,7 +1,5 @@
 # StarrScripts
 
-[![GitHub](https://img.shields.io/badge/GitHub-baker--scripts%2FStarrScripts-blue?logo=github)](https://github.com/baker-scripts/StarrScripts)
-
 A curated collection of scripts to optimize and manage various functions related to Starr applications and associated tools.
 Occasionally holds random useful scripts as well.
 These scripts are designed to enhance functionality, improve management, and automate routine tasks.

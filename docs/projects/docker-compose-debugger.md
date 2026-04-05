@@ -1,7 +1,5 @@
 # Docker Compose Debugger
 
-[![GitHub](https://img.shields.io/badge/GitHub-baker--scripts%2Fdocker-compose-debugger-blue?logo=github)](https://github.com/baker-scripts/docker-compose-debugger)
-
 Browser-based tool that turns messy Docker Compose output into clean, readable debugging views. Paste output from `docker-autocompose`, `docker compose config`, or raw `docker-compose.yml` — get sanitized YAML with sensitive values redacted, per-service cards, volume comparison tables, and a markdown table ready for Discord or GitHub support channels.
 
 **Live:** [baker-scripts.github.io/docker-compose-debugger](https://baker-scripts.github.io/docker-compose-debugger/)

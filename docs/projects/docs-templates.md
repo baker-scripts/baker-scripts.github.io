@@ -1,7 +1,5 @@
 # docs-templates
 
-[![GitHub](https://img.shields.io/badge/GitHub-baker--scripts%2Fdocs-templates-blue?logo=github)](https://github.com/baker-scripts/docs-templates)
-
 [![Build Plex Guide](https://github.com/baker-scripts/docs-templates/actions/workflows/build.yml/badge.svg)](https://github.com/baker-scripts/docs-templates/actions/workflows/build.yml)
 [![Lint](https://github.com/baker-scripts/docs-templates/actions/workflows/lint.yml/badge.svg)](https://github.com/baker-scripts/docs-templates/actions/workflows/lint.yml)
 [![Live Preview](https://img.shields.io/badge/Live_Preview-GitHub_Pages-blue)](https://baker-scripts.github.io/docs-templates/plex/)
