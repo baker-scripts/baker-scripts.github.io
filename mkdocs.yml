@@ -1,0 +1,49 @@
+site_name: Baker Scripts
+site_url: https://baker-scripts.github.io
+site_description: Open-source tools and scripts for Plex, Starr apps, and server administration
+repo_url: https://github.com/baker-scripts
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.sections
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - attr_list
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Projects:
+      - StarrScripts: projects/StarrScripts.md
+      - Scripts: projects/Scripts.md
+      - autodns: projects/autodns.md
+      - docker-compose-debugger: projects/docker-compose-debugger.md
+      - docs-templates: projects/docs-templates.md
+      - pmm-config: projects/pmm-config.md
+      - qui_workflows: projects/qui_workflows.md
+      - RedditModLog: projects/RedditModLog.md

@@ -1,0 +1,79 @@
+name: Deploy Site
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1" # Weekly Monday 6am — refresh READMEs
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  sync-readmes:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch READMEs from public repos
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p docs/projects
+          for repo in StarrScripts Scripts autodns docker-compose-debugger docs-templates pmm-config qui_workflows RedditModLog; do
+            echo "Fetching ${repo}..."
+            gh api "repos/baker-scripts/${repo}/readme" --jq '.content' 2>/dev/null | base64 -d > "docs/projects/${repo}.md" 2>/dev/null || echo "# ${repo}" > "docs/projects/${repo}.md"
+          done
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet docs/projects/ && echo "changed=false" >> "$GITHUB_OUTPUT" || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit updated READMEs
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/projects/
+          git commit -m "chore: sync READMEs from source repos"
+          git push
+
+  build:
+    needs: sync-readmes
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install mkdocs-material
+
+      - run: mkdocs build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
