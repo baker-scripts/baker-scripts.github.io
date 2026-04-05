@@ -1,5 +1,7 @@
 # Scripts
 
+[![GitHub](https://img.shields.io/badge/GitHub-baker--scripts%2FScripts-blue?logo=github)](https://github.com/baker-scripts/Scripts)
+
 Utility scripts for selfhosted infrastructure management.
 
 ## Contents

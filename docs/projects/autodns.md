@@ -1,5 +1,7 @@
 # Cloudflare DNS Updater
 
+[![GitHub](https://img.shields.io/badge/GitHub-baker--scripts%2Fautodns-blue?logo=github)](https://github.com/baker-scripts/autodns)
+
 The Cloudflare DNS Updater (AutoDNS) is a Flask-based application designed to automate the updating of A records on Cloudflare. Using GUIDs for DNS record identification, it features automatic IP detection from incoming requests and integrates with Apprise for sending notifications upon successful updates or when errors occur.
 
 ## Features

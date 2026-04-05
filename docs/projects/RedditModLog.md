@@ -1,5 +1,7 @@
 # Reddit Modlog Wiki Publisher
 
+[![GitHub](https://img.shields.io/badge/GitHub-baker--scripts%2FRedditModLog-blue?logo=github)](https://github.com/baker-scripts/RedditModLog)
+
 Automatically publishes Reddit moderation logs to a subreddit wiki page with modmail inquiry links.
 
 ## Features
