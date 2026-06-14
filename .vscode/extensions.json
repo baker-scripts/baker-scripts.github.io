@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "davidanson.vscode-markdownlint",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "yzhang.markdown-all-in-one"
+  ]
+}
