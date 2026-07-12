@@ -1,12 +1,12 @@
 # qui_workflows
 
-Automation workflows for [qui](https://github.com/TRaSH-Guides/qui) — a qBittorrent automation manager. These workflows manage the complete torrent lifecycle: tagging, maintenance, share limits, and cleanup.
+Automation workflows for [qui](https://github.com/autobrr/qui) — a qBittorrent automation manager. These workflows manage the complete torrent lifecycle: tagging, maintenance, share limits, and cleanup.
 
 21 automations organized by function, designed for a hardlink-aware setup with cross-seed support.
 
 ## Requirements
 
-- [qui](https://github.com/TRaSH-Guides/qui) instance with API access
+- [qui](https://github.com/autobrr/qui) instance with API access
 - qBittorrent with hardlink detection enabled (save path and hardlink target on the same filesystem)
 - `curl` and `python3` (for the export script)
 
@@ -178,7 +178,7 @@ Used in `shareLimits.seedingTimeMinutes`:
 
 ## Known Differences from TRaSH Workflows
 
-This setup uses **category-based routing** (movies/tv/TL/catchall) while [TRaSH's workflows](https://github.com/TRaSH-Guides/qui_workflows) use **tracker-tier-based routing** (Tier 1/2/3). Neither approach is wrong — they reflect different philosophies.
+This setup uses **category-based routing** (movies/tv/TL/catchall) while [TRaSH's workflows](https://github.com/TRaSH-/qui_workflows) use **tracker-tier-based routing** (Tier 1/2/3). Neither approach is wrong — they reflect different philosophies.
 
 Key differences:
 - **No tier system**: We route by category + tracker tag rather than tracker tier
@@ -199,7 +199,7 @@ Issues identified during review (documented, not yet applied):
 ## Related
 
 - [baker-scripts/StarrScripts](https://github.com/baker-scripts/StarrScripts) — includes `qui-xseed.sh` for cross-seed automation
-- [TRaSH-Guides/qui_workflows](https://github.com/TRaSH-Guides/qui_workflows) — TRaSH's tier-based reference implementation
+- [TRaSH-Guides/qui_workflows](https://github.com/TRaSH-/qui_workflows) — TRaSH's tier-based reference implementation
 
 ## Contributors
 
@@ -213,4 +213,4 @@ These automations are provided as-is with no warranty. They **will delete torren
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/baker-scripts/qui_workflows/blob/main/LICENSE)

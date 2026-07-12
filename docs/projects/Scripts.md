@@ -23,4 +23,4 @@ These scripts are provided as-is with no warranty. Always review scripts before 
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/baker-scripts/Scripts/blob/main/LICENSE)

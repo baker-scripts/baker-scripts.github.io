@@ -10,7 +10,7 @@ MkDocs documentation templates with variable substitution. Fork, customize, and 
 
 | Template | Description | Live Preview |
 |----------|-------------|--------------|
-| [Plex Guide](plex-guide/) | User-facing guide for Plex media servers | [Preview](https://baker-scripts.github.io/docs-templates/plex/) |
+| [Plex Guide](https://baker-scripts.github.io/docs-templates/plex/) | User-facing guide for Plex media servers | [Preview](https://baker-scripts.github.io/docs-templates/plex/) |
 
 **Coming soon:** Plan templates, runbook templates.
 
@@ -224,4 +224,4 @@ This project is not affiliated with or endorsed by Plex, Inc. Plex is a register
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/baker-scripts/docs-templates/blob/main/LICENSE)
