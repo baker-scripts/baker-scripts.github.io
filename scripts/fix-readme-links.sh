@@ -17,6 +17,7 @@ fix_file() {
     -e "s|](LICENSE)|](https://github.com/baker-scripts/${repo}/blob/main/LICENSE)|g" \
     -e 's|](plex-guide/)|](https://baker-scripts.github.io/docs-templates/plex/)|g' \
     -e 's|https://github.com/baker-scripts/StarrScripts/blob/main/CONTRIBUTING.md|https://github.com/baker-scripts/StarrScripts/issues|g' \
+    -e 's|Please refer to the \[contribution guidelines\](https://github.com/baker-scripts/StarrScripts/issues) for more information.|Please [open an issue](https://github.com/baker-scripts/StarrScripts/issues) for more information.|g' \
     "$file"
 }
 

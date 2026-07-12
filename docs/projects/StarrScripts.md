@@ -145,7 +145,7 @@ error.
   <img src="https://contrib.rocks/image?repo=baker-scripts/StarrScripts" alt="Contributors" />
 </a>
 
-Contributions to improve or expand the scripts collection are welcome. Please refer to the [contribution guidelines](https://github.com/baker-scripts/StarrScripts/issues) for more information.
+Contributions to improve or expand the scripts collection are welcome. Please [open an issue](https://github.com/baker-scripts/StarrScripts/issues) for more information.
 
 ## Disclaimer
 
