@@ -14,10 +14,10 @@ error.
 ### qui Cross-Seed Trigger for Starr Apps
 
 -   **Script:** `qui-xseed.sh`
--   **Description:** Triggers a [qui](https://github.com/qui-lern/qui) data-based cross-seed search when Radarr or Sonarr completes an import. The script creates a dir-scan entry in qui, triggers a scan, polls for completion, then cleans up.
+-   **Description:** Triggers a [qui](https://github.com/autobrr/qui) data-based cross-seed search when Radarr or Sonarr completes an import. The script creates a dir-scan entry in qui, triggers a scan, polls for completion, then cleans up.
 -   **Creator:** [Bakerboy448](https://github.com/bakerboy448/)
 -   **Requirements:**
-    -   [qui](https://github.com/qui-lern/qui) with API access enabled
+    -   [qui](https://github.com/autobrr/qui) with API access enabled
     -   Radarr/Sonarr with Custom Script connect support
 -   **Instructions:**
     1. Copy `.env.sample` to `.env` and configure the `QUI_*` variables.
@@ -145,7 +145,7 @@ error.
   <img src="https://contrib.rocks/image?repo=baker-scripts/StarrScripts" alt="Contributors" />
 </a>
 
-Contributions to improve or expand the scripts collection are welcome. Please refer to the [contribution guidelines](https://github.com/baker-scripts/StarrScripts/blob/main/CONTRIBUTING.md) for more information.
+Contributions to improve or expand the scripts collection are welcome. Please [open an issue](https://github.com/baker-scripts/StarrScripts/issues) for more information.
 
 ## Disclaimer
 
@@ -153,4 +153,4 @@ These scripts are provided as-is with no warranty. Scripts may delete files, mod
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/baker-scripts/StarrScripts/blob/main/LICENSE)

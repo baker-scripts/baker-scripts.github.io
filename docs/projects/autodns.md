@@ -51,4 +51,4 @@ This software is provided as-is with no warranty. Always review configurations b
 
 ## License
 
-[GPL-3.0](LICENSE)
+[GPL-3.0](https://github.com/baker-scripts/autodns/blob/main/LICENSE)

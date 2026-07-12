@@ -34,6 +34,8 @@ jobs:
             gh api "repos/baker-scripts/${repo}/readme" --jq '.content' 2>/dev/null | base64 -d > "docs/projects/${repo}.md" 2>/dev/null || echo "# ${repo}" > "docs/projects/${repo}.md"
           done
 
+          bash scripts/fix-readme-links.sh docs/projects
+
       - name: Check for changes
         id: changes
         run: |

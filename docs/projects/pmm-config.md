@@ -37,4 +37,4 @@ These configs are provided as-is with no warranty. Always test with a Kometa dry
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/baker-scripts/pmm-config/blob/main/LICENSE)

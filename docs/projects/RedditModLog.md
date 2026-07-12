@@ -432,4 +432,4 @@ PRs welcome. Include test runs and changes to CLI/help output.
 
 ## License
 
-[GPL-3.0](LICENSE)
+[GPL-3.0](https://github.com/baker-scripts/RedditModLog/blob/main/LICENSE)
