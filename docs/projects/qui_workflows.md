@@ -199,7 +199,7 @@ Issues identified during review (documented, not yet applied):
 ## Related
 
 - [baker-scripts/StarrScripts](https://github.com/baker-scripts/StarrScripts) — includes `qui-xseed.sh` for cross-seed automation
-- [TRaSH-Guides/qui_workflows](https://github.com/TRaSH-/qui_workflows) — TRaSH's tier-based reference implementation
+- [TRaSH-/qui_workflows](https://github.com/TRaSH-/qui_workflows) — TRaSH's tier-based reference implementation
 
 ## Contributors
 
