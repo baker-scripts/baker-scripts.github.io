@@ -227,6 +227,13 @@ body {
   box-shadow: 0 0 0.75rem var(--bs-purple-glow);
 }
 
+.bs-btn:focus-visible,
+.bs-card:focus-visible,
+.bs-app-card:focus-visible {
+  outline: 2px solid var(--bs-amber);
+  outline-offset: 2px;
+}
+
 /* Section headings */
 
 .bs-section {
@@ -420,6 +427,20 @@ body {
 .md-typeset .grid.cards > ul > li:hover {
   border-color: rgba(124, 77, 255, 0.45);
   box-shadow: 0 0 1rem var(--bs-purple-glow);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bs-btn,
+  .bs-card,
+  .bs-app-card {
+    transition: none;
+  }
+
+  .bs-btn:hover,
+  .bs-card:hover,
+  .bs-app-card:hover {
+    transform: none;
+  }
 }
 
 @media screen and (max-width: 76.1875em) {
