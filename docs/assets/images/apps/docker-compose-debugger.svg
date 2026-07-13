@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" fill="none">
+  <rect width="400" height="180" fill="#000"/>
+  <rect x="1" y="1" width="398" height="178" rx="8" stroke="#1f1f2e" stroke-width="1"/>
+  <rect x="16" y="16" width="368" height="28" rx="6" fill="#111" stroke="#1f1f2e"/>
+  <text x="28" y="34" font-family="monospace" font-size="11" fill="#7c4dff">docker-compose-debugger</text>
+  <rect x="16" y="56" width="110" height="108" rx="6" fill="#0a0a0a" stroke="#7c4dff" stroke-width="1" opacity="0.6"/>
+  <text x="28" y="78" font-family="sans-serif" font-size="10" fill="#ffb74d">radarr</text>
+  <text x="28" y="96" font-family="monospace" font-size="8" fill="#666">image: lscr.io/...</text>
+  <text x="28" y="112" font-family="monospace" font-size="8" fill="#666">ports: 7878:7878</text>
+  <rect x="138" y="56" width="110" height="108" rx="6" fill="#0a0a0a" stroke="#7c4dff" stroke-width="1" opacity="0.6"/>
+  <text x="150" y="78" font-family="sans-serif" font-size="10" fill="#ffb74d">sonarr</text>
+  <text x="150" y="96" font-family="monospace" font-size="8" fill="#666">image: lscr.io/...</text>
+  <text x="150" y="112" font-family="monospace" font-size="8" fill="#666">ports: 8989:8989</text>
+  <rect x="260" y="56" width="124" height="108" rx="6" fill="#0a0a0a" stroke="#ffb74d" stroke-width="1" opacity="0.5"/>
+  <text x="272" y="78" font-family="sans-serif" font-size="10" fill="#ffb74d">volumes</text>
+  <text x="272" y="98" font-family="monospace" font-size="8" fill="#4caf50">/tv ’ /data/tv</text>
+  <text x="272" y="114" font-family="monospace" font-size="8" fill="#4caf50">/movies ’ /data/movies</text>
+  <text x="272" y="130" font-family="monospace" font-size="8" fill="#ff5f57">secrets redacted</text>
+</svg>
