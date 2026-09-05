@@ -13,7 +13,7 @@
   <text x="150" y="112" font-family="monospace" font-size="8" fill="#666">ports: 8989:8989</text>
   <rect x="260" y="56" width="124" height="108" rx="6" fill="#0a0a0a" stroke="#ffb74d" stroke-width="1" opacity="0.5"/>
   <text x="272" y="78" font-family="sans-serif" font-size="10" fill="#ffb74d">volumes</text>
-  <text x="272" y="98" font-family="monospace" font-size="8" fill="#4caf50">/tv ’ /data/tv</text>
-  <text x="272" y="114" font-family="monospace" font-size="8" fill="#4caf50">/movies ’ /data/movies</text>
+  <text x="272" y="98" font-family="monospace" font-size="8" fill="#4caf50">/tv â†’ /data/tv</text>
+  <text x="272" y="114" font-family="monospace" font-size="8" fill="#4caf50">/movies â†’ /data/movies</text>
   <text x="272" y="130" font-family="monospace" font-size="8" fill="#ff5f57">secrets redacted</text>
 </svg>
