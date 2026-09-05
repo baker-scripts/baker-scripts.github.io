@@ -36,8 +36,8 @@
   <circle cx="360" cy="66" r="4" fill="#febc2e"/>
   <circle cx="374" cy="66" r="4" fill="#28c840"/>
   <text x="345" y="100" font-family="monospace" font-size="11" fill="#7c4dff">$ ./starr-sync.sh</text>
-  <text x="345" y="118" font-family="monospace" font-size="11" fill="#4caf50"> Radarr updated</text>
-  <text x="345" y="136" font-family="monospace" font-size="11" fill="#4caf50"> Sonarr updated</text>
+  <text x="345" y="118" font-family="monospace" font-size="11" fill="#4caf50">✓ Radarr updated</text>
+  <text x="345" y="136" font-family="monospace" font-size="11" fill="#4caf50">✓ Sonarr updated</text>
   <text x="345" y="154" font-family="monospace" font-size="11" fill="#ffb74d">→ qui xseed triggered</text>
   <!-- Docker -->
   <rect x="540" y="70" width="140" height="90" rx="8" fill="#0d0d0d" stroke="#1f1f2e" stroke-width="1.5"/>
