@@ -21,7 +21,31 @@ fix_file() {
     "$file"
 }
 
+# Insert a "View on GitHub" button after the page title so each mirrored
+# README links back to its source repo. Idempotent: skips if already present.
+add_github_button() {
+  local file="$1"
+  local repo
+  repo="$(basename "$file" .md)"
+
+  grep -q 'class="bs-actions"' "$file" && return 0
+
+  awk -v repo="$repo" '
+    /^# / && !done {
+      print
+      print ""
+      print "<div class=\"bs-actions\" markdown=\"0\">"
+      print "  <a class=\"bs-btn bs-btn--primary\" href=\"https://github.com/baker-scripts/" repo "\">View on GitHub →</a>"
+      print "</div>"
+      done = 1
+      next
+    }
+    { print }
+  ' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
+}
+
 for file in "$DOCS_DIR"/*.md; do
   [ -f "$file" ] || continue
   fix_file "$file"
+  add_github_button "$file"
 done
