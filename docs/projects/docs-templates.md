@@ -1,5 +1,9 @@
 # docs-templates
 
+<div class="bs-actions" markdown="0">
+  <a class="bs-btn bs-btn--primary" href="https://github.com/baker-scripts/docs-templates">View on GitHub →</a>
+</div>
+
 [![Build Plex Guide](https://github.com/baker-scripts/docs-templates/actions/workflows/build.yml/badge.svg)](https://github.com/baker-scripts/docs-templates/actions/workflows/build.yml)
 [![Lint](https://github.com/baker-scripts/docs-templates/actions/workflows/lint.yml/badge.svg)](https://github.com/baker-scripts/docs-templates/actions/workflows/lint.yml)
 [![Live Preview](https://img.shields.io/badge/Live_Preview-GitHub_Pages-blue)](https://baker-scripts.github.io/docs-templates/plex/)

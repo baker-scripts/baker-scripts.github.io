@@ -1,5 +1,9 @@
 # Scripts
 
+<div class="bs-actions" markdown="0">
+  <a class="bs-btn bs-btn--primary" href="https://github.com/baker-scripts/Scripts">View on GitHub →</a>
+</div>
+
 [![ShellCheck](https://github.com/baker-scripts/Scripts/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/baker-scripts/Scripts/actions/workflows/shellcheck.yml)
 
 Utility scripts for selfhosted infrastructure management.

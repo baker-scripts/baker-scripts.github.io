@@ -1,5 +1,9 @@
 # StarrScripts
 
+<div class="bs-actions" markdown="0">
+  <a class="bs-btn bs-btn--primary" href="https://github.com/baker-scripts/StarrScripts">View on GitHub →</a>
+</div>
+
 [![ShellCheck](https://github.com/baker-scripts/StarrScripts/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/baker-scripts/StarrScripts/actions/workflows/shellcheck.yml)
 
 A curated collection of scripts to optimize and manage various functions related to Starr applications and associated tools.

@@ -1,5 +1,9 @@
 # qui_workflows
 
+<div class="bs-actions" markdown="0">
+  <a class="bs-btn bs-btn--primary" href="https://github.com/baker-scripts/qui_workflows">View on GitHub →</a>
+</div>
+
 [![JSON Lint](https://github.com/baker-scripts/qui_workflows/actions/workflows/json-lint.yml/badge.svg)](https://github.com/baker-scripts/qui_workflows/actions/workflows/json-lint.yml)
 
 Automation workflows for [qui](https://github.com/autobrr/qui) — a qBittorrent automation manager. These workflows manage the complete torrent lifecycle: tagging, maintenance, share limits, and cleanup.

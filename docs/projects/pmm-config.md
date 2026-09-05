@@ -1,5 +1,9 @@
 # pmm-config
 
+<div class="bs-actions" markdown="0">
+  <a class="bs-btn bs-btn--primary" href="https://github.com/baker-scripts/pmm-config">View on GitHub →</a>
+</div>
+
 [![pre-commit](https://github.com/baker-scripts/pmm-config/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/baker-scripts/pmm-config/actions/workflows/pre-commit.yml)
 
 Kometa (formerly Plex Meta Manager) configuration files for automated Plex library management.
