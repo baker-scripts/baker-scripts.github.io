@@ -136,8 +136,9 @@ Set to `true` to show the section, `false` to hide it.
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `has_request_system` | `true` | Overseerr/Jellyseerr request system |
+| `has_request_system` | `true` | Seerr request system |
 | `request_url` | `""` | Request system URL |
+| `invite_url_example` | `""` | Sample invite link shown in the sign-up steps (e.g. `join.example.com/j/...`); empty hides it |
 | `has_discord` | `false` | Discord notification server |
 | `discord_url` | `""` | Discord invite link |
 | `has_newsletter` | `false` | Tautulli newsletter |
